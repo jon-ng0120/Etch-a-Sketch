@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Limelight', cursive;
+    background-color: rgb(243, 243, 243);
+}
+
+button {
+    padding: 0.5em 0.9em;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.main-container h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-shadow: 3px 3px rgb(206, 206, 206);
+}
+
+.user-input {
+    padding: 0.4rem 0.9rem;
+    margin: 0.8rem 0;
+    font-size: 0.9rem;
+    border-radius: 6px;
+}
+
+.user-input-btn {
+    background-color: rgb(212, 212, 255);
+}
+
+.change-size-container {
+    margin: 1.5rem 0 0.8rem 0;
+}
+
+.error-message {
+    color: rgb(170, 5, 38);
+}
+
+.sketch-container {
+    height: 38rem;
+    width: 38rem;
+    border: 3px solid rgb(95, 95, 95);
+    display: grid;
+    margin: 0 auto;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0 0 5px;
+}
+
+.sketch-container:hover {
+    cursor: pointer;
+}
+
+.sketch-container div {
+    border: 1px solid rgb(148, 148, 148);
+}
+
+.clear {
+    margin-top: 1rem;
+    background-color:rgb(240, 149, 149);
+}

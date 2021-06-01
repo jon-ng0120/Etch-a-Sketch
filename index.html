@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+    <title>Etch-a-Sketch</title>
 </head>
 <body>
-    
+    <div class="main-container">
+        <h1>Etch-a-Sketch</h1>
+        <div class="change-size-container">
+            <h3>Enter a number ranging from 1 to 64 to change total number of grids</h3>
+            <input type="text" class="user-input">
+            <button class="user-input-btn">Change Size</button>
+            <h4 class="error-message"></h4>
+        </div>
+        <div class="sketch-container"></div> 
+        <button class="clear">Clear Board</button>
+    </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
